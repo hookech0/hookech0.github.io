@@ -1,5 +1,5 @@
 ---
-"HTB Reversing Challenges: Behind the Scenes"
+title: "HTB Reversing Challenges: Behind the Scenes"
 layout: post
 ---
 
@@ -37,27 +37,27 @@ https://www.felixcloutier.com/x86/ud
 
 So I did just that, using `Ctrl-Shift-G` I manually patched each `UD2` instruction to a `NOP`
 
-![Running the binary](/assets/screenshots/behindthescenes/patchtonop.png)
+![Patching UD2 to NOP](/assets/screenshots/behindthescenes/patchtonop.png)
 
-![Running the binary](/assets/screenshots/behindthescenes/moreinvalidinstructions.png)
+![More invalidinstructions popping up](/assets/screenshots/behindthescenes/moreinvalidinstructions.png)
 
 As shown above, we get another `invalidInstructionException` in the decompile window.
 
 I then selected all of the addresses which failed to decompile under the first `UD2` instruction in the Listing window and hit `d` to find the rest.
 
-![Running the binary](/assets/screenshots/behindthescenes/highlighttodecompile.png)
+![Decompiling after the first NOP patch](/assets/screenshots/behindthescenes/highlighttodecompile.png)
 
 After this, we get more `UD2` instructions we have to patch out.
 
-![Running the binary](/assets/screenshots/behindthescenes/moreud2s.png)
+![More UD2 instructions revealed](/assets/screenshots/behindthescenes/moreud2s.png)
 
 Continuing this process, more and more of the code is decompiled, which starts to resemble something interesting:
 
-![Running the binary](/assets/screenshots/behindthescenes/uncoveringthestring.png)
+![Parts of the password string revealed](/assets/screenshots/behindthescenes/uncoveringthestring.png)
 
 Finally, Ghidra provides what looks like the password for the binary, `Itz_0nLy_UD2`.
 
-![Running the binary](/assets/screenshots/behindthescenes/fullstring.png)
+![Binary password](/assets/screenshots/behindthescenes/fullstring.png)
 
 Supplying that to the binary returns the flag for the challenge:
 
