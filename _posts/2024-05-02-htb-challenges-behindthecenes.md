@@ -1,5 +1,5 @@
 ---
-title: "HTB Reversing Challenges: Behind the Scenes"
+title:  "Hack The Box Reversing Challenges: Behind the Scenes"
 layout: post
 ---
 
