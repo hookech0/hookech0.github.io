@@ -1,5 +1,5 @@
 ---
-"Hack The Box Reversing Challenges: Behind the Scenes"
+title: "HTB Reversing Challenges Behind the Scenes"
 layout: post
 ---
 
@@ -69,4 +69,4 @@ This was a great little challenge to sink my teeth into and get more familiar wi
 
 ### Tools Used
 
-- Ghidra | https://github.com/NationalSecurityAgency/ghidra/
+Ghidra | https://github.com/NationalSecurityAgency/ghidra/
