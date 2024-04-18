@@ -1,4 +1,3 @@
-![image](https://github.com/hookech0/hookech0.github.io/assets/22085006/16d46be3-8705-46d5-bcf1-e0a9bf1182a2)---
 title: "Internal Network Testing Quick Hits"
 layout: post
 ---
