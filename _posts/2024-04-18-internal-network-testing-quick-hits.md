@@ -177,7 +177,7 @@ I love leveraging printers to get domain authentication. If you're lucky, some p
 
 If you hit the jackpot, some printers may even be configured with LDAP or SNMP credentials that you could possibly extract, or pass the credentials back to your server.
 
-https://medium.com/r3d-buck3t/pwning-printers-with-ldap-pass-back-attack-a0d8fa495210
+[https://medium.com/r3d-buck3t/pwning-printers-with-ldap-pass-back-attack-a0d8fa495210](https://medium.com/r3d-buck3t/pwning-printers-with-ldap-pass-back-attack-a0d8fa495210)
 
 Don't ignore printers!
 
@@ -310,7 +310,7 @@ There's a few tools that exist which help you verify the issue and even download
 
 If you find any "Cisco IP Phone" web pages you may be in luck. You may find SSH, or LDAP credentials stored in a Service Profile File with a *.cnf.xml extension referenced in the phone's configuration file.
 
-![cisco IP phone](screenshots/cisco-phone.png)
+![image](https://github.com/hookech0/hookech0.github.io/assets/22085006/16d46be3-8705-46d5-bcf1-e0a9bf1182a2)
 
 Described [here](https://infosecwriteups.com/complete-take-over-of-cisco-unified-communications-manager-due-consecutively-misconfigurations-2a1b5ce8bd9a), if you find the phones configured call manager server you can request the phone's configuration file from CUCM.
 
