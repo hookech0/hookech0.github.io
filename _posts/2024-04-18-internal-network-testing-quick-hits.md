@@ -1,4 +1,4 @@
----
+![image](https://github.com/hookech0/hookech0.github.io/assets/22085006/16d46be3-8705-46d5-bcf1-e0a9bf1182a2)---
 title: "Internal Network Testing Quick Hits"
 layout: post
 ---
@@ -302,8 +302,8 @@ https://www.cisco.com/c/en/us/td/docs/switches/lan/smart_install/configuration/g
 
 There's a few tools that exist which help you verify the issue and even download or upload config files.
 
-- https://github.com/frostbits-security/SIET
-- https://github.com/Sab0tag3d/SIETpy3
+- [https://github.com/frostbits-security/SIET](https://github.com/frostbits-security/SIET)
+- [https://github.com/Sab0tag3d/SIETpy3](https://github.com/Sab0tag3d/SIETpy3)
 
 
 ### Cisco IP Phones <a name="2.13"></a>
@@ -352,7 +352,7 @@ Definietly loud, but [BloodHound](https://github.com/BloodHoundAD/BloodHound/rel
 
 For the actual data collection:
 
-https://www.kali.org/tools/bloodhound.py/ | which is https://github.com/dirkjanm/BloodHound.py
+[https://github.com/dirkjanm/BloodHound.py](https://github.com/dirkjanm/BloodHound.py)
 
 
 This is quite loud as it includes the `loggedon` argument:
@@ -365,16 +365,14 @@ Once you get the data it's really up to you, and the environment as to what to e
 
 Custom queries are a good way to expand your `bloodhound`:
 
-https://github.com/LuemmelSec/Custom-BloodHound-Queries
-
-https://github.com/ZephrFish/Bloodhound-CustomQueries 
-
-https://github.com/CompassSecurity/BloodHoundQueries
+- [https://github.com/LuemmelSec/Custom-BloodHound-Queries](https://github.com/LuemmelSec/Custom-BloodHound-Queries)
+- [https://github.com/ZephrFish/Bloodhound-CustomQueries](https://github.com/ZephrFish/Bloodhound-CustomQueries)
+- [https://github.com/CompassSecurity/BloodHoundQueries](https://github.com/CompassSecurity/BloodHoundQueries)
 
 
 #### bloodyAD
 
-https://github.com/CravateRouge/bloodyAD
+[https://github.com/CravateRouge/bloodyAD](https://github.com/CravateRouge/bloodyAD)
 
 This is a great Linux AD tool to use alongside BloodHound.
 
@@ -478,9 +476,9 @@ This could be a post on its own. However, I'm just going to keep it really high-
 
 If you're completely unfamiliar, give these a read:
 
-- https://posts.specterops.io/certified-pre-owned-d95910965cd2
-- https://www.blackhillsinfosec.com/abusing-active-directory-certificate-services-part-one/
-- https://www.blackhillsinfosec.com/abusing-active-directory-certificate-services-part-2/
+- [https://posts.specterops.io/certified-pre-owned-d95910965cd2](https://posts.specterops.io/certified-pre-owned-d95910965cd2)
+- [https://www.blackhillsinfosec.com/abusing-active-directory-certificate-services-part-one/](https://www.blackhillsinfosec.com/abusing-active-directory-certificate-services-part-one/)
+- [https://www.blackhillsinfosec.com/abusing-active-directory-certificate-services-part-2/](https://www.blackhillsinfosec.com/abusing-active-directory-certificate-services-part-2/)
 
 Finding vulnerable templates:
 
