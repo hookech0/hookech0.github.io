@@ -9,7 +9,7 @@ layout: post
 
 This is a really bite-sized course which really focuses on a high-level introduction to what DevOps is for pentesting, some basic git usage, best practices, along with using TeamCity to automatically obfuscate and test builds.
 
-At the time of writing this is the cheapest course Zero Point Security offers at **£26.15** ($32 USD or $45 CAD for me). It has 30 lessons and several have a video associated with them. 
+At the time of writing this is the cheapest course Zero Point Security offers (apart from the _pay what you can_ C# and Rust n00bs courses) at **£26.15** ($32 USD or $45 CAD for me). It has 30 lessons and several have a video associated with them. 
 
 You'll ideally have a development VM already setup with various tools to use along with the course material.
 
@@ -17,7 +17,7 @@ I had one Windows 10 VM with the following installed:
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (Not required, VS2019 will do fine if you already have it)
 
-- [Visual Studio 2019](https://learn.microsoft.com/en-us/visualstudio/releases/2019/history#release-dates-and-build-numbers) (make sure to install .NET 4.0 and .NET 4.5 targeting packs too)
+- [Visual Studio 2019](https://learn.microsoft.com/en-us/visualstudio/releases/2019/history#release-dates-and-build-numbers) (Make sure to install .NET 4.0 and .NET 4.5 targeting packs)
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
