@@ -255,8 +255,6 @@ If you only get DCC2 hashes from this, toss those into `hashcat` while you conti
 
 ### IPv6 Man-in-the-Middle  <a name="2.9"></a>
 
-I'll be honest, I haven't had the most luck with actually exploiting IPv6 and getting credentials. That said, it's still a potential avenue and it's worth exploring as IPv6 adoption is still not common.
-
 To my knowledge, [mitm6](https://github.com/dirkjanm/mitm6) is still the goto tool for exploiting IPv6 issues in Windows networks. 
 
 Basic commands:
